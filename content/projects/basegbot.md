@@ -1,0 +1,4 @@
++++
+title = "basegbot"
+type = "page"
++++
