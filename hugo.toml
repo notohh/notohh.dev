@@ -1,0 +1,41 @@
+baseURL = "https://notohh.dev/"
+defaultContentLanguage = "en"
+languageCode = "en"
+
+title = "notohh"
+
+theme = "gokarna"
+
+enableRobotsTXT = true
+
+[menu]
+  [[menu.main]]
+    identifier = "status"
+    name = "status"
+    url = "https://status.flake.sh/status/kumo"
+    pre = ""
+    weight = 1
+
+  [[menu.main]]
+    identifier = "about"
+    name = "about"
+    url = "/about/"
+    weight = 2
+        
+  [[menu.main]]
+    identifier = "projects"
+    name = "projects"
+    url = "/projects/"
+    weight = 3
+    
+[params]
+  avatarURL = "/images/pfp.jpg"
+  avatarSize = "size-m"
+  accentColor = "#08F"
+      socialIcons = [
+      {name = "github", url = "https://github.com/"},
+      {name = "twitter", url = "https://twitter.com/notohhh"},
+      {name = "twitch", url = "https://www.twitch.tv/notohh"},
+      {name = "discord", url = "https://discord.com/users/155965294429470720"}
+    ]
+    pygmentsStyle = "catppuccin-mocha"
