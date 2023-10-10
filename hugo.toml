@@ -29,7 +29,7 @@ enableRobotsTXT = true
     weight = 3
     
 [params]
-  avatarURL = "/images/pfp.jpg"
+  avatarURL = "images/pfp.jpg"
   avatarSize = "size-m"
   accentColor = "#74c7ec"
       socialIcons = [
