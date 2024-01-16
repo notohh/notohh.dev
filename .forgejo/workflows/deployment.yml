@@ -13,6 +13,7 @@ jobs:
           github-token: ${{ secrets.GH_TOKEN }}
       - name: build
         run: |
+          nix run nixpkgs#dart-sass -- scss/main.scss static/dist/main.css
           nix run nixpkgs#elmPackages.elm-land -- build
       - name: deploy
         uses: https://github.com/cloudflare/wrangler-action@v3
