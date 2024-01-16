@@ -1,4 +1,0 @@
-+++
-title = "basegbot"
-type = "page"
-+++
