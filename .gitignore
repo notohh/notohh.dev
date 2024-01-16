@@ -5,3 +5,6 @@
 /node_modules
 .DS_Store
 *.pem
+
+/static/dist
+node_modules

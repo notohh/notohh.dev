@@ -1,0 +1,22 @@
+name: notohh.dev
+
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: install nix
+        uses: https://github.com/DeterminateSystems/nix-installer-action@v5
+        with:
+          github-token: ${{ secrets.GH_TOKEN }}
+      - name: build
+        run: |
+          nix run nixpkgs#elmPackages.elm-land -- build
+      - name: deploy
+        uses: https://github.com/cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          command: pages deploy ./dist --project-name=notohh.dev

@@ -18,6 +18,8 @@
         nil
         git
         alejandra
+        dart-sass
+        nodejs
         elmPackages.elm
         elmPackages.elm-land
         elmPackages.elm-format
