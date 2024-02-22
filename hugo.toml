@@ -75,16 +75,16 @@ name = "mastodon"
 url = "https://fosstodon.org/@notohh"
 
 [[params.social]]
+name = "gpg"
+url = "https://keys.openpgp.org/search?q=+C3CB+3B31+AF3F+986C+39E0++BE5B+BD47+506D+475E+E86D"
+
+[[params.social]]
+name = "git"
+url = "https://git.flake.sh/notohh"
+
+[[params.social]]
 name = "twitch"
 url = "https://www.twitch.tv/notohh"
-
-[[params.social]]
-name = "anilist"
-url = "https://myanimelist.net/profile/notoh"
-
-[[params.social]]
-name = "gitea"
-url = "https://git.flake.sh/notohh"
 
 [[params.social]]
 name = "lastfm"
