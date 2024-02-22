@@ -1,0 +1,115 @@
+
+baseURL = "https://notohh.dev"
+title = "notohh"
+languageCode = "en-us"
+theme = "hello-friend-ng"      # https://github.com/rhazdon/hugo-theme-hello-friend-ng
+
+PygmentsCodeFences = false
+PygmentsStyle = "monokai"
+
+paginate = 10
+
+archetypeDir = "archetypes"
+contentDir = "content"
+dataDir = "data"
+layoutDir = "layouts"
+publishDir = "public"
+
+buildDrafts = false
+buildFuture = false
+buildExpired = false
+canonifyURLs = true
+
+enableRobotsTXT = true
+enableGitInfo = false
+enableEmoji = true
+enableMissingTranslationPlaceholders = false
+disableRSS = true
+disableSitemap = true
+disable404 = false
+disableHugoGeneratorInject = false
+
+description = "notohh.dev"
+keywords = ""
+images = [""]
+
+
+homeSubtitle = "notohh.dev"
+disableReadOtherPosts = false
+enableThemeToggle = false
+enableSharingButtons = false
+
+
+enableGlobalLanguageMenu = true
+
+customCSS = []
+customJS = []
+
+justifyContent = false
+
+[params.footer]
+rss = false
+copyright = false
+author = false
+
+bottomText = ["Powered by <a href=\"http://gohugo.io\">Hugo</a>"]
+
+[params.favicon.color]
+mask = "#1b1c1d"
+msapplication = "#1b1c1d"
+theme = "#1b1c1d"
+
+[params.logo]
+logoMark = ">"
+logoText = "$ cd /home/"
+logoHomeLink = "/"
+# logoCursorDisabled = false
+logoCursorColor = "#A9A9B3"
+logoCursorAnimate = "1s"
+logoCursorPathname = true
+
+# [params.portrait]
+#   path     = "/img/image.jpg"
+#   alt      = "Portrait"
+#   maxWidth = "50px"
+
+
+[[params.social]]
+
+name = "mastodon"
+url = "https://fosstodon.org/@notohh"
+
+[[params.social]]
+name = "twitch"
+url = "https://www.twitch.tv/notohh"
+
+[[params.social]]
+name = "anilist"
+url = "https://myanimelist.net/profile/notoh"
+
+[[params.social]]
+name = "gitea"
+url = "https://git.flake.sh/notohh"
+
+[[params.social]]
+name = "lastfm"
+url = "https://www.last.fm/user/notoh"
+
+
+[languages]
+[languages.en]
+weight = 1
+
+[menu]
+[[menu.main]]
+identifier = "about"
+name = "about"
+url = "about/"
+[[menu.main]]
+identifier = "projects"
+name = "projects"
+url = "projects/"
+[[menu.main]]
+identifier = "status"
+name = "status"
+url = "https://status.flake.sh/status/kumo"

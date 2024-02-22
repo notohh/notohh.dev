@@ -1,6 +1,6 @@
 <div align=center>
  <h1>notohh.dev</h1>
  <h3>
- Built with Elm Land 🌈 Deployed with Cloudflare
+ built with hugo, deployed with cloudflare
  </h3>
 </div>

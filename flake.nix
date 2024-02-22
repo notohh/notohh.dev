@@ -16,13 +16,8 @@
       name = "notohh.dev";
       packages = with pkgs; [
         nil
-        git
         alejandra
-        dart-sass
-        nodejs
-        elmPackages.elm
-        elmPackages.elm-land
-        elmPackages.elm-format
+        hugo
       ];
     };
   };
