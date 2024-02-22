@@ -2,7 +2,7 @@
 
 ## :snowflake: snowflake
 
-<img src="https://i.imgur.com/z1EFyMr.png"></img>
+{{<image src="/snowflake.png" alt="screenshot of hyprland desktop">}}
 
 _[snowflake](https://git.flake.sh/notohh/snowflake)_ is my multi-config nixos repo. its the heart of my servers, my desktop, my laptop, my everything
 
