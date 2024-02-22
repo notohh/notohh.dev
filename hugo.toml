@@ -30,8 +30,6 @@ disable404 = false
 disableHugoGeneratorInject = false
 
 description = "notohh.dev"
-keywords = ""
-images = [""]
 
 
 homeSubtitle = "notohh.dev"
@@ -52,7 +50,10 @@ rss = false
 copyright = false
 author = false
 
-bottomText = ["Powered by <a href=\"http://gohugo.io\">Hugo</a>"]
+bottomText = [
+    "powered by <a href=\"http://gohugo.io\">hugo</a>",
+    "site <a href=\"https://git.flake.sh/notohh/notohh.dev\">source</a>",
+]
 
 [params.favicon.color]
 mask = "#1b1c1d"
@@ -67,12 +68,6 @@ logoHomeLink = "/"
 logoCursorColor = "#A9A9B3"
 logoCursorAnimate = "1s"
 logoCursorPathname = true
-
-# [params.portrait]
-#   path     = "/img/image.jpg"
-#   alt      = "Portrait"
-#   maxWidth = "50px"
-
 
 [[params.social]]
 
