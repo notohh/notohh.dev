@@ -51,8 +51,8 @@ copyright = false
 author = false
 
 bottomText = [
-    "powered by <a href=\"http://gohugo.io\">hugo</a>",
-    "site <a href=\"https://git.flake.sh/notohh/notohh.dev\">source</a>",
+  "powered by <a href=\"http://gohugo.io\">hugo</a>",
+  "site <a href=\"https://git.flake.sh/notohh/notohh.dev\">source</a>",
 ]
 
 [params.favicon.color]
@@ -70,9 +70,12 @@ logoCursorAnimate = "1s"
 logoCursorPathname = true
 
 [[params.social]]
-
 name = "mastodon"
 url = "https://fosstodon.org/@notohh"
+
+[[params.social]]
+name = "bluesky"
+url = "https://bsky.app/profile/flake.sh"
 
 [[params.social]]
 name = "gpg"
