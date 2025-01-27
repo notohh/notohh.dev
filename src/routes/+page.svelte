@@ -9,7 +9,11 @@
 <div
   class="font-display flex flex-col items-center justify-center h-screen bg-eerie-black"
 >
-  <img src={Pfp} alt="" class="rounded-full w-32 h-32 mb-4" />
+  <img
+    src={Pfp}
+    alt=""
+    class="rounded-full w-32 h-32 mb-4 hover:animate-spin"
+  />
   <h1 class="text-4xl font-bold text-center text-floral-white">notohh</h1>
   <div class="flex space-x-4 mt-4">
     <a href="https://www.last.fm/user/notoh" aria-label="Lastfm">
