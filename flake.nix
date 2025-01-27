@@ -38,6 +38,7 @@
           nodejs_23
           bun
           svelte-language-server
+          gh-markdown-preview
         ];
       };
     });
