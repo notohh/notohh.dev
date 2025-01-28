@@ -5,7 +5,10 @@
   --font-display: "Inter", "sans-serif";
   --color-floral-white: #fffcf2;
   --color-timber-wolf: #ccc5b9;
-  --color-black-olive: #403d39;
   --color-eerie-black: #252422;
-  --color-flame: #eb5e28;
+  --color-accent-dark: #1e1d1b;
+}
+
+.color-transition {
+  transition: color 0.1s ease-in-out;
 }

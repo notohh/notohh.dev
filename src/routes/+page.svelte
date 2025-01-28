@@ -18,22 +18,22 @@
   <div class="flex space-x-4 mt-4">
     <a href="https://www.last.fm/user/notoh" aria-label="Lastfm">
       <Lastfm
-        className="w-8 h-8 fill-current text-floral-white hover:text-red-500"
+        className="w-8 h-8 fill-current text-floral-white hover:text-red-500 color-transition"
       />
     </a>
     <a href="https://git.flake.sh/notohh" aria-label="Forgejo">
       <Forgejo
-        className="w-8 h-8 fill-current text-floral-white hover:text-orange-400"
+        className="w-8 h-8 fill-current text-floral-white hover:text-orange-500 color-transition"
       />
     </a>
     <a href="https://bsky.app/profile/flake.sh" aria-label="Bluesky">
       <Bluesky
-        className="w-8 h-8 fill-current text-floral-white hover:text-blue-400"
+        className="w-8 h-8 fill-current text-floral-white hover:text-blue-500 color-transition"
       />
     </a>
     <a href="https://www.twitch.tv/notohh" aria-label="Twitch">
       <Twitch
-        className="w-8 h-8 fill-current text-floral-white hover:text-purple-500"
+        className="w-8 h-8 fill-current text-floral-white hover:text-purple-500 color-transition"
       />
     </a>
   </div>
