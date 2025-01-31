@@ -21,18 +21,42 @@
 				tabindex="-1"
 				class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow"
 			>
-				<li><a href="/about">about</a></li>
-				<li><a href="/projects">projects</a></li>
-				<li><a href="https://status.flake.sh/">status</a></li>
+				<li>
+					<a class="hover:text-accent color-transition" href="/about">about</a>
+				</li>
+				<li>
+					<a class="hover:text-accent color-transition" href="/projects"
+						>projects</a
+					>
+				</li>
+				<li>
+					<a
+						class="hover:text-accent color-transition"
+						href="https://status.flake.sh/status/kumo">status</a
+					>
+				</li>
 			</ul>
 		</div>
-		<a href="/" class="btn btn-ghost text-xl">notohh.dev</a>
+		<a href="/" class="btn btn-ghost text-xl hover:text-accent color-transition"
+			>notohh.dev</a
+		>
 	</div>
 	<div class="navbar-center hidden lg:flex">
 		<ul class="menu menu-horizontal px-1">
-			<li><a href="/about">about</a></li>
-			<li><a href="/projects">projects</a></li>
-			<li><a href="https://status.flake.sh/">status</a></li>
+			<li>
+				<a class="hover:text-accent color-transition" href="/about">about</a>
+			</li>
+			<li>
+				<a class="hover:text-accent color-transition" href="/projects"
+					>projects</a
+				>
+			</li>
+			<li>
+				<a
+					class="hover:text-accent color-transition"
+					href="https://status.flake.sh/status/kumo">status</a
+				>
+			</li>
 		</ul>
 	</div>
 	<div class="navbar-end">
