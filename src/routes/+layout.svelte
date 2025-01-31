@@ -1,18 +1,13 @@
 <script>
-  import "../app.css";
+	import Footer from '$lib/components/Footer.svelte';
+	import Navbar from '$lib/components/Navbar.svelte';
+	import '../app.css';
 </script>
 
-<div
-  class="font-display flex items-center h-10 justify-center bg-accent-dark text-floral-white"
->
-  <nav class="space-x-4 text-xl">
-    <a href="/" class="hover:text-timber-wolf color-transition">home</a>
-    <a href="/about" class="hover:text-timber-wolf color-transition">about</a>
-    <a
-      href="https://status.flake.sh/status/kumo"
-      class="hover:text-timber-wolf color-transition">status</a
-    >
-  </nav>
+<div class="flex flex-col min-h-screen">
+	<Navbar />
+	<main class="flex-grow">
+		<slot />
+	</main>
+	<Footer />
 </div>
-
-<slot />
