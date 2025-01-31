@@ -2,6 +2,12 @@
 	class="font-display footer sm:footer-horizontal footer-center text-base-content p-4 bg-base-100 text-lg"
 >
 	<aside>
+		<span>
+			made with ♥ by
+			<a href="https://pot.cx/Sxo5A3" class="hover:text-accent color-transition"
+				>@notohh</a
+			>
+		</span>
 		<p>
 			site
 			<a aria-label="source code" href="https://git.flake.sh/notohh/notohh.dev">
