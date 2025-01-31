@@ -35,5 +35,15 @@
 			<li><a href="https://status.flake.sh/">status</a></li>
 		</ul>
 	</div>
-	<div class="navbar-end"></div>
+	<div class="navbar-end">
+		<span class="inline-block hover:motion-preset-spin">
+			<a
+				href="https://www.youtube.com/watch?v=e1OWVKtAp7s"
+				class="btn btn-ghost hover:text-accent color-transition"
+				aria-label="=3"
+			>
+				=3
+			</a>
+		</span>
+	</div>
 </div>
