@@ -36,7 +36,6 @@
           nil
           alejandra
           nodejs_23
-          deno
           svelte-language-server
           gh-markdown-preview
         ];
