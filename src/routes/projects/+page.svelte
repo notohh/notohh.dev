@@ -20,7 +20,12 @@
 						<h1
 							class="flex justify-center text-center font-display sm:text-4xl mt-5"
 						>
-							snowflake
+							<a href="https://git.flake.sh/notohh/snowflake">
+								<span
+									class="inline-block font-bold text-accent hover:motion-preset-oscillate-sm"
+									>snowflake
+								</span>
+							</a>
 						</h1>
 						<h2 class="flex font-display sm:text-lg mt-5">
 							snowflake is my multi-config nixos repo. its the heart of my
@@ -107,7 +112,12 @@
 							<h1
 								class="flex justify-center text-center font-display sm:text-4xl mt-5"
 							>
-								notohh.dev
+								<a href="https://git.flake.sh/notohh/notohh.dev">
+									<span
+										class="inline-block font-bold text-accent hover:motion-preset-oscillate-sm"
+										>notohh.dev
+									</span>
+								</a>
 							</h1>
 							<h2
 								class="flex justify-center text-center font-display sm:text-lg mt-5"
