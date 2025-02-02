@@ -2,8 +2,8 @@
 	<title>about</title>
 </svelte:head>
 
-<div class="bg-base-300 min-h-screen flex flex-col items-center justify-center">
-	<h1 class="text-4xl motion-preset-slide-down mb-10">about me</h1>
+<div class="flex min-h-screen flex-col items-center justify-center bg-base-300">
+	<h1 class="mb-10 motion-preset-slide-down text-4xl">about me</h1>
 	<ul class="list-inside list-disc text-2xl">
 		<li class="motion-preset-blur-right-lg motion-delay-200">23 y/o</li>
 		<li class="motion-preset-blur-right-lg motion-delay-400">

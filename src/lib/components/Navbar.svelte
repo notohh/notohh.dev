@@ -19,41 +19,41 @@
 			</div>
 			<ul
 				tabindex="-1"
-				class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow"
+				class="dropdown-content menu z-1 mt-3 w-52 menu-sm rounded-box bg-base-100 p-2 shadow"
 			>
 				<li>
-					<a class="hover:text-accent color-transition" href="/about">about</a>
+					<a class="color-transition hover:text-accent" href="/about">about</a>
 				</li>
 				<li>
-					<a class="hover:text-accent color-transition" href="/projects"
+					<a class="color-transition hover:text-accent" href="/projects"
 						>projects</a
 					>
 				</li>
 				<li>
 					<a
-						class="hover:text-accent color-transition"
+						class="color-transition hover:text-accent"
 						href="https://status.flake.sh/status/kumo">status</a
 					>
 				</li>
 			</ul>
 		</div>
-		<a href="/" class="btn btn-ghost text-xl hover:text-accent color-transition"
+		<a href="/" class="color-transition btn text-xl btn-ghost hover:text-accent"
 			>notohh.dev</a
 		>
 	</div>
 	<div class="navbar-center hidden lg:flex">
 		<ul class="menu menu-horizontal px-1">
 			<li>
-				<a class="hover:text-accent color-transition" href="/about">about</a>
+				<a class="color-transition hover:text-accent" href="/about">about</a>
 			</li>
 			<li>
-				<a class="hover:text-accent color-transition" href="/projects"
+				<a class="color-transition hover:text-accent" href="/projects"
 					>projects</a
 				>
 			</li>
 			<li>
 				<a
-					class="hover:text-accent color-transition"
+					class="color-transition hover:text-accent"
 					href="https://status.flake.sh/status/kumo">status</a
 				>
 			</li>
@@ -63,7 +63,7 @@
 		<span class="inline-block hover:motion-preset-spin">
 			<a
 				href="https://www.youtube.com/watch?v=e1OWVKtAp7s"
-				class="btn btn-ghost hover:text-accent color-transition"
+				class="color-transition btn btn-ghost hover:text-accent"
 				aria-label="=3"
 			>
 				=3

@@ -1,10 +1,10 @@
 <footer
-	class="font-display footer sm:footer-horizontal footer-center text-base-content p-4 bg-base-100 text-lg"
+	class="footer-center footer bg-base-100 p-4 font-display text-lg text-base-content sm:footer-horizontal"
 >
 	<aside>
 		<span>
 			made with ♥ by
-			<a href="https://pot.cx/Sxo5A3" class="hover:text-accent color-transition"
+			<a href="https://pot.cx/Sxo5A3" class="color-transition hover:text-accent"
 				>@notohh</a
 			>
 		</span>
@@ -12,7 +12,7 @@
 			site
 			<a aria-label="source code" href="https://git.flake.sh/notohh/notohh.dev">
 				<span
-					class="inline-block color-transition hover:text-accent hover:motion-preset-seesaw-lg"
+					class="color-transition inline-block hover:motion-preset-seesaw-lg hover:text-accent"
 				>
 					source
 				</span>

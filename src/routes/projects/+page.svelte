@@ -1,24 +1,24 @@
 <svelte:head>
 	<title>projects</title>
 </svelte:head>
-<div class="bg-base-300 min-h-screen flex items-center justify-center">
+<div class="flex min-h-screen items-center justify-center bg-base-300">
 	<div class="w-1/2 text-center">
 		<div
-			class="absolute left-5 right-5 top-1/2 flex flex-grow -translate-y-1/2 transform justify-between"
+			class="absolute top-1/2 right-5 left-5 flex grow -translate-y-1/2 transform justify-between"
 		>
 			<a href="#slide1" class="btn btn-circle bg-accent-content">❮</a>
 			<a href="#slide2" class="btn btn-circle bg-accent-content">❯</a>
 		</div>
 
-		<div class="collapse border border-base-content motion-preset-expand">
-			<div class="collapse-title font-semibold flex-col">projects</div>
+		<div class="collapse motion-preset-expand border border-base-content">
+			<div class="collapse-title flex-col font-semibold">projects</div>
 			<input type="radio" name="accordion" checked={true} />
 			<div class="collapse-content text-sm">
 				<div class="carousel w-full">
-					<div id="slide1" class="carousel-item relative w-full flex-col">
+					<div id="slide1" class="relative carousel-item w-full flex-col">
 						<img src="https://i.imgur.com/s2zvbRt.png" alt="" class="w-full" />
 						<h1
-							class="flex justify-center text-center font-display sm:text-4xl mt-5"
+							class="mt-5 flex justify-center text-center font-display sm:text-4xl"
 						>
 							<a href="https://git.flake.sh/notohh/snowflake">
 								<span
@@ -27,13 +27,13 @@
 								</span>
 							</a>
 						</h1>
-						<h2 class="flex font-display sm:text-lg mt-5">
+						<h2 class="mt-5 flex font-display sm:text-lg">
 							snowflake is my multi-config nixos repo. its the heart of my
 							servers, my desktop, my laptop, my everything
 						</h2>
 						<div class="flex justify-start text-left text-balance sm:text-lg">
 							<ul
-								class="flex flex-col list-disc list-inside mt-5 justify-start"
+								class="mt-5 flex list-inside list-disc flex-col justify-start"
 							>
 								<li>
 									multi-config repo, with configs for servers, laptop, and
@@ -102,15 +102,15 @@
 							</ul>
 						</div>
 					</div>
-					<div id="slide2" class="carousel-item relative w-full flex-col">
-						<div id="slide2" class="carousel-item relative w-full flex-col">
+					<div id="slide2" class="relative carousel-item w-full flex-col">
+						<div id="slide2" class="relative carousel-item w-full flex-col">
 							<img
 								src="https://i.imgur.com/KOoUpRv.png"
 								alt=""
 								class="w-full"
 							/>
 							<h1
-								class="flex justify-center text-center font-display sm:text-4xl mt-5"
+								class="mt-5 flex justify-center text-center font-display sm:text-4xl"
 							>
 								<a href="https://git.flake.sh/notohh/notohh.dev">
 									<span
@@ -120,13 +120,13 @@
 								</a>
 							</h1>
 							<h2
-								class="flex justify-center text-center font-display sm:text-lg mt-5"
+								class="mt-5 flex justify-center text-center font-display sm:text-lg"
 							>
 								this website :)
 							</h2>
 							<div class="flex justify-start text-left text-balance sm:text-lg">
 								<ul
-									class="flex flex-col list-disc list-inside mt-5 justify-start"
+									class="mt-5 flex list-inside list-disc flex-col justify-start"
 								>
 									<li>
 										built with

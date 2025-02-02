@@ -1,9 +1,9 @@
 <script lang="ts">
-	import Pfp from '$lib/images/pfp.jpg';
-	import Forgejo from '$lib/components/forgejo.svelte';
-	import Bluesky from '$lib/components/bluesky.svelte';
-	import Lastfm from '$lib/components/lastfm.svelte';
-	import Twitch from '$lib/components/twitch.svelte';
+	import Pfp from '$lib/images/pfp.jpg'
+	import Forgejo from '$lib/components/forgejo.svelte'
+	import Bluesky from '$lib/components/bluesky.svelte'
+	import Lastfm from '$lib/components/lastfm.svelte'
+	import Twitch from '$lib/components/twitch.svelte'
 </script>
 
 <svelte:head>
@@ -11,19 +11,19 @@
 </svelte:head>
 
 <div
-	class="bg-base-300 font-display flex flex-col items-center justify-center h-screen text-base-content"
+	class="flex h-screen flex-col items-center justify-center bg-base-300 font-display text-base-content"
 >
 	<img
 		src={Pfp}
 		alt=""
-		class="rounded-full w-32 h-32 mb-4 motion-preset-blur-down-lg motion-delay-100"
+		class="mb-4 h-32 w-32 motion-preset-blur-down-lg rounded-full motion-delay-100"
 	/>
 	<h1
-		class="text-4xl font-bold text-center motion-preset-blur-down-lg motion-delay-200"
+		class="motion-preset-blur-down-lg text-center text-4xl font-bold motion-delay-200"
 	>
 		notohh
 	</h1>
-	<div class="flex space-x-4 mt-4">
+	<div class="mt-4 flex space-x-4">
 		<a href="https://www.last.fm/user/notoh" aria-label="Lastfm">
 			<span class="inline-block motion-preset-expand motion-delay-400">
 				<Lastfm
