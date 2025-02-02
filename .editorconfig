@@ -1,0 +1,8 @@
+root = true
+
+[*.{ts,svelte,css,json}]
+    indent_size = 2
+    indent_style = space #change to tab if thats what you prefer
+    insert_final_newline = true
+    trim_trailing_whitespace = true
+    end_of_line = lf
