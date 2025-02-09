@@ -36,6 +36,7 @@
           nil
           alejandra
           bun
+          nodejs_23
           svelte-language-server
           gh-markdown-preview
         ];
