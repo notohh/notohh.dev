@@ -16,7 +16,7 @@
 			<div class="collapse-content text-sm">
 				<div class="carousel w-full">
 					<div id="slide1" class="relative carousel-item w-full flex-col">
-						<img src="https://i.imgur.com/s2zvbRt.png" alt="" class="w-full" />
+						<img src="https://i.imgur.com/0jW7kPZ.png" alt="" class="w-full" />
 						<h1
 							class="mt-5 flex justify-center text-center font-display sm:text-4xl"
 						>
