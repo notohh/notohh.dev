@@ -62,7 +62,7 @@
 	<div class="navbar-end">
 		<span class="inline-block hover:motion-preset-spin">
 			<a
-				href="https://www.youtube.com/watch?v=e1OWVKtAp7s"
+				href="https://www.youtube.com/watch?v=cjJOWJ4_q5A"
 				class="color-transition btn btn-ghost hover:text-accent"
 				aria-label="=3"
 			>
