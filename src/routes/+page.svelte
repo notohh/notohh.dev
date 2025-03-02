@@ -16,7 +16,7 @@
 	<img
 		src={Pfp}
 		alt=""
-		class="mb-4 h-32 w-32 motion-preset-blur-down-lg rounded-full motion-delay-100"
+		class="pointer-events-none mb-4 h-32 w-32 motion-preset-blur-down-lg rounded-full motion-delay-100"
 	/>
 	<h1
 		class="motion-preset-blur-down-lg text-center text-4xl font-bold motion-delay-200"
