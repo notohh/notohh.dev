@@ -1,10 +1,10 @@
 <script lang="ts">
 	import Pfp from '$lib/images/pfp.jpg'
 	import Forgejo from '$lib/components/Forgejo.svelte'
-	import Bluesky from '$lib/components/Bluesky.svelte'
 	import Lastfm from '$lib/components/Lastfm.svelte'
 	import Twitch from '$lib/components/Twitch.svelte'
 	import Anilist from '$lib/components/Anilist.svelte'
+	import Matrix from '$lib/components/Matrix.svelte'
 </script>
 
 <svelte:head>
@@ -39,13 +39,6 @@
 				/>
 			</span>
 		</a>
-		<a href="https://bsky.app/profile/flake.sh" aria-label="Bluesky">
-			<span class="inline-block motion-preset-expand motion-delay-400">
-				<Bluesky
-					className="w-8 h-8 fill-current color-transition hover:text-accent hover:motion-preset-pulse"
-				/>
-			</span>
-		</a>
 		<a href="https://www.twitch.tv/notohh" aria-label="Twitch">
 			<span class="inline-block motion-preset-expand motion-delay-400">
 				<Twitch
@@ -56,6 +49,13 @@
 		<a href="https://anilist.co/user/notoh/" aria-label="Anilist">
 			<span class="inline-block motion-preset-expand motion-delay-400">
 				<Anilist
+					className="w-8 h-8 fill-current color-transition hover:text-accent hover:motion-preset-pulse"
+				/>
+			</span>
+		</a>
+		<a href="https://matrix.to/#/@oh:matrix.flake.sh" aria-label="Matrix">
+			<span class="inline-block motion-preset-expand motion-delay-400">
+				<Matrix
 					className="w-8 h-8 fill-current color-transition hover:text-accent hover:motion-preset-pulse"
 				/>
 			</span>
