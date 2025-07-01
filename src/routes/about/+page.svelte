@@ -5,7 +5,7 @@
 <div class="flex min-h-screen flex-col items-center justify-center bg-base-300">
 	<h1 class="mb-10 motion-preset-slide-down text-4xl">about me</h1>
 	<ul class="list-inside list-disc text-2xl">
-		<li class="motion-preset-blur-right-lg motion-delay-200">23 y/o</li>
+		<li class="motion-preset-blur-right-lg motion-delay-200">24 y/o</li>
 		<li class="motion-preset-blur-right-lg motion-delay-400">
 			interested in linux, devops, etc
 		</li>

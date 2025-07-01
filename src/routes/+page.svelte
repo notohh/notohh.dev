@@ -4,7 +4,6 @@
 	import Lastfm from '$lib/components/Lastfm.svelte'
 	import Twitch from '$lib/components/Twitch.svelte'
 	import Anilist from '$lib/components/Anilist.svelte'
-	import Matrix from '$lib/components/Matrix.svelte'
 </script>
 
 <svelte:head>
@@ -49,13 +48,6 @@
 		<a href="https://anilist.co/user/notoh/" aria-label="Anilist">
 			<span class="inline-block motion-preset-expand motion-delay-400">
 				<Anilist
-					className="w-8 h-8 fill-current color-transition hover:text-accent hover:motion-preset-pulse"
-				/>
-			</span>
-		</a>
-		<a href="https://matrix.to/#/@oh:matrix.flake.sh" aria-label="Matrix">
-			<span class="inline-block motion-preset-expand motion-delay-400">
-				<Matrix
 					className="w-8 h-8 fill-current color-transition hover:text-accent hover:motion-preset-pulse"
 				/>
 			</span>
