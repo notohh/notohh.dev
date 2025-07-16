@@ -1,6 +1,6 @@
 <script lang="ts">
 	import Pfp from '$lib/images/pfp.jpg'
-	import Forgejo from '$lib/components/Forgejo.svelte'
+	import Github from '$lib/components/Github.svelte'
 	import Lastfm from '$lib/components/Lastfm.svelte'
 	import Twitch from '$lib/components/Twitch.svelte'
 	import Anilist from '$lib/components/Anilist.svelte'
@@ -31,9 +31,9 @@
 				/>
 			</span>
 		</a>
-		<a href="https://git.flake.sh/notohh" aria-label="Forgejo">
+		<a href="https://github.com/notohh" aria-label="Github">
 			<span class="inline-block motion-preset-expand motion-delay-400">
-				<Forgejo
+				<Github
 					className="w-8 h-8 fill-current color-transition hover:text-accent hover:motion-preset-pulse"
 				/>
 			</span>
