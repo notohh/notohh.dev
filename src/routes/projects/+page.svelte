@@ -80,10 +80,10 @@
 								<li>custom packages not found in nixpkgs</li>
 								<li>
 									linted & styled with
-									<a href="https://github.com/kamadorueda/alejandra">
+									<a href="https://github.com/NixOS/nixfmt">
 										<span
 											class="inline-block font-bold text-accent hover:motion-preset-oscillate-sm"
-											>alejandra,</span
+											>nixfmt,</span
 										></a
 									>
 									<a href="https://github.com/astro/deadnix">
