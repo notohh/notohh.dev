@@ -1,5 +1,5 @@
 <script lang="ts">
-	import Pfp from '$lib/images/pfp.jpg'
+	import Pfp from '$lib/images/pfp.webp'
 	import Github from '$lib/components/Github.svelte'
 	import Lastfm from '$lib/components/Lastfm.svelte'
 	import Twitch from '$lib/components/Twitch.svelte'
