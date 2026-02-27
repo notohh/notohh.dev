@@ -16,7 +16,7 @@
 			<div class="collapse-content text-sm">
 				<div class="carousel w-full">
 					<div id="slide1" class="relative carousel-item w-full flex-col">
-						<img src="https://i.imgur.com/TbveB7E.png" alt="" class="w-full" />
+						<img src="https://i.imgur.com/iKXiqBe.jpeg" alt="" class="w-full" />
 						<h1
 							class="mt-5 flex justify-center text-center font-display sm:text-4xl"
 						>
@@ -67,15 +67,23 @@
 									containerized ones, with a docker backend)
 								</li>
 								<li>
-									wayland config for <a
-										href="https://github.com/hyprwm/Hyprland"
+									declarative wayland config for <a
+										href="https://github.com/niri-wm/niri"
 									>
+										<span
+											class="inline-block font-bold text-accent hover:motion-preset-oscillate-sm"
+										>
+											niri
+										</span>
+									</a>
+									(and also
+									<a href="https://github.com/hyprwm/Hyprland">
 										<span
 											class="inline-block font-bold text-accent hover:motion-preset-oscillate-sm"
 										>
 											hyprland
 										</span>
-									</a>
+									</a>)
 								</li>
 								<li>custom packages not found in nixpkgs</li>
 								<li>
