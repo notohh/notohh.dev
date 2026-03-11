@@ -29,7 +29,7 @@
             prettier.enable = true;
             # nix
             statix.enable = true;
-            nixfmt-rfc-style.enable = true;
+            nixfmt.enable = true;
             deadnix.enable = true;
           };
         };
@@ -39,7 +39,6 @@
           inherit (self.checks.${system}.pre-commit-check) shellHook;
           packages = with pkgsFor.${system}; [
             nil
-            alejandra
             bun
             nodejs_24
             svelte-language-server
