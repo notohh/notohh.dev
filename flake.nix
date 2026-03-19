@@ -39,7 +39,7 @@
           inherit (self.checks.${system}.pre-commit-check) shellHook;
           packages = with pkgsFor.${system}; [
             nil
-            bun
+            pnpm
             nodejs_24
             svelte-language-server
             gh-markdown-preview
